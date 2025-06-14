@@ -1,0 +1,44 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Exploring the Wonders of the JavaScript Universe",
+            "author": "Jane Doe",
+            "date": "2024-06-01",
+            "content": "JavaScript continues to evolve, offering developers new features and capabilities. In this post, we explore some of the latest updates and how they can improve your workflow.",
+            "tags": ["JavaScript", "Web Development", "Programming"]
+        },
+        {
+            "id": 2,
+            "title": "A Beginner's Guide to RESTful APIs",
+            "author": "John Smith",
+            "date": "2024-05-28",
+            "content": "RESTful APIs are the backbone of modern web applications. This guide covers the basics of REST, including endpoints, methods, and best practices.",
+            "tags": ["API", "REST", "Backend"]
+        },
+        {
+            "id": 3,
+            "title": "Understanding CSS Flexbox in 10 Minutes",
+            "author": "Emily Chen",
+            "date": "2024-05-20",
+            "content": "Flexbox makes it easier to design flexible responsive layout structures. Learn the essentials of Flexbox with practical examples.",
+            "tags": ["CSS", "Flexbox", "Frontend"]
+        },
+        {
+            "id": 4,
+            "title": "Why TypeScript is Taking Over JavaScript Projects",
+            "author": "Carlos Ruiz",
+            "date": "2024-05-15",
+            "content": "TypeScript adds static typing to JavaScript, helping developers catch errors early and write more maintainable code. Discover why so many teams are making the switch.",
+            "tags": ["TypeScript", "JavaScript", "Programming"]
+        },
+        {
+            "id": 5,
+            "title": "Deploying Your First Static Website with Azure",
+            "author": "Priya Patel",
+            "date": "2024-05-10",
+            "content": "Azure Static Web Apps make it easy to deploy and host static sites. Follow this step-by-step guide to get your site online in minutes.",
+            "tags": ["Azure", "Deployment", "Static Web Apps"]
+        }
+    ]
+}

@@ -1,15 +1,5 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import * as motion from "motion/react-client";
 
 export const metadata = {
   title: "Nate blogs",
@@ -19,11 +9,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <motion.body
+        className="bg-white text-gray-900 dark:bg-neutral-900 dark:text-neutral-100"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.2, ease: "easeInOut" }}>
         {children}
-      </body>
+      </motion.body>
     </html>
   );
 }
